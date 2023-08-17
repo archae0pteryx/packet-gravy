@@ -18,8 +18,7 @@ async def handler(websocket, path):
             try:
                 print(line)
                 packet_dict = json.loads(line)
-                # The fields of the packet are organized in a hierarchical way
-                # according to the protocol layers
+                
                 # now we can filter out the payload (or any other fields)
                 # if "ip" in packet_dict[0]["_source"]["layers"]:
                 #     if "data" in packet_dict[0]["_source"]["layers"]["ip"]:

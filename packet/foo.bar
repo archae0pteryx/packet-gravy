@@ -1,0 +1,4016 @@
+[
+  {
+    "_index": "packets-2023-08-16",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame_raw": [
+          "01005e0000fbf89e94c27afe080045000038a32a000001112a280a000168e00000fb14e914e90024c4bc0000000000010000000000000467707374056c6f63616c0000010001",
+          0,
+          70,
+          0,
+          1
+        ],
+        "frame": {
+          "frame.section_number_raw": [
+            "",
+            0,
+            0,
+            0,
+            7
+          ],
+          "frame.interface_id_raw": [
+            "",
+            0,
+            0,
+            0,
+            7
+          ],
+          "frame.interface_id_tree": {
+            "frame.interface_name_raw": [
+              "",
+              0,
+              0,
+              0,
+              26
+            ],
+            "frame.interface_description_raw": [
+              "",
+              0,
+              0,
+              0,
+              26
+            ]
+          },
+          "frame.encap_type_raw": [
+            "",
+            0,
+            0,
+            0,
+            13
+          ],
+          "frame.time_raw": [
+            "",
+            0,
+            0,
+            0,
+            24
+          ],
+          "frame.offset_shift_raw": [
+            "",
+            0,
+            0,
+            0,
+            25
+          ],
+          "frame.time_epoch_raw": [
+            "",
+            0,
+            0,
+            0,
+            25
+          ],
+          "frame.time_delta_raw": [
+            "",
+            0,
+            0,
+            0,
+            25
+          ],
+          "frame.time_delta_displayed_raw": [
+            "",
+            0,
+            0,
+            0,
+            25
+          ],
+          "frame.time_relative_raw": [
+            "",
+            0,
+            0,
+            0,
+            25
+          ],
+          "frame.number_raw": [
+            "",
+            0,
+            0,
+            0,
+            7
+          ],
+          "frame.len_raw": [
+            "",
+            0,
+            0,
+            0,
+            7
+          ],
+          "frame.cap_len_raw": [
+            "",
+            0,
+            0,
+            0,
+            7
+          ],
+          "frame.marked_raw": [
+            "",
+            0,
+            0,
+            0,
+            2
+          ],
+          "frame.ignored_raw": [
+            "",
+            0,
+            0,
+            0,
+            2
+          ],
+          "frame.protocols_raw": [
+            "",
+            0,
+            0,
+            0,
+            26
+          ]
+        },
+        "eth_raw": [
+          "01005e0000fbf89e94c27afe0800",
+          0,
+          14,
+          0,
+          1
+        ],
+        "eth": {
+          "eth.dst_raw": [
+            "01005e0000fb",
+            0,
+            6,
+            0,
+            29
+          ],
+          "eth.dst_tree": {
+            "eth.dst_resolved_raw": [
+              "01005e0000fb",
+              0,
+              6,
+              0,
+              26
+            ],
+            "eth.dst.oui_raw": [
+              "01005e",
+              0,
+              3,
+              0,
+              6
+            ],
+            "eth.addr_raw": [
+              "01005e0000fb",
+              0,
+              6,
+              0,
+              29
+            ],
+            "eth.addr_resolved_raw": [
+              "01005e0000fb",
+              0,
+              6,
+              0,
+              26
+            ],
+            "eth.addr.oui_raw": [
+              "01005e",
+              0,
+              3,
+              0,
+              6
+            ],
+            "eth.dst.lg_raw": [
+              "0",
+              0,
+              3,
+              131072,
+              2
+            ],
+            "eth.lg_raw": [
+              "0",
+              0,
+              3,
+              131072,
+              2
+            ],
+            "eth.dst.ig_raw": [
+              "1",
+              0,
+              3,
+              65536,
+              2
+            ],
+            "eth.ig_raw": [
+              "1",
+              0,
+              3,
+              65536,
+              2
+            ]
+          },
+          "eth.src_raw": [
+            "f89e94c27afe",
+            6,
+            6,
+            0,
+            29
+          ],
+          "eth.src_tree": {
+            "eth.src_resolved_raw": [
+              "f89e94c27afe",
+              6,
+              6,
+              0,
+              26
+            ],
+            "eth.src.oui_raw": [
+              "f89e94",
+              6,
+              3,
+              0,
+              6
+            ],
+            "eth.src.oui_resolved_raw": [
+              "f89e94c27afe",
+              6,
+              6,
+              0,
+              26
+            ],
+            "eth.addr_raw": [
+              "f89e94c27afe",
+              6,
+              6,
+              0,
+              29
+            ],
+            "eth.addr_resolved_raw": [
+              "f89e94c27afe",
+              6,
+              6,
+              0,
+              26
+            ],
+            "eth.addr.oui_raw": [
+              "f89e94",
+              6,
+              3,
+              0,
+              6
+            ],
+            "eth.addr.oui_resolved_raw": [
+              "f89e94c27afe",
+              6,
+              6,
+              0,
+              26
+            ],
+            "eth.src.lg_raw": [
+              "0",
+              6,
+              3,
+              131072,
+              2
+            ],
+            "eth.lg_raw": [
+              "0",
+              6,
+              3,
+              131072,
+              2
+            ],
+            "eth.src.ig_raw": [
+              "0",
+              6,
+              3,
+              65536,
+              2
+            ],
+            "eth.ig_raw": [
+              "0",
+              6,
+              3,
+              65536,
+              2
+            ]
+          },
+          "eth.type_raw": [
+            "0800",
+            12,
+            2,
+            0,
+            5
+          ]
+        },
+        "ip_raw": [
+          "45000038a32a000001112a280a000168e00000fb",
+          14,
+          20,
+          0,
+          1
+        ],
+        "ip": {
+          "ip.version_raw": [
+            "45",
+            14,
+            1,
+            0,
+            4
+          ],
+          "ip.hdr_len_raw": [
+            "45",
+            14,
+            1,
+            0,
+            4
+          ],
+          "ip.dsfield_raw": [
+            "00",
+            15,
+            1,
+            0,
+            4
+          ],
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp_raw": [
+              "0",
+              15,
+              1,
+              252,
+              4
+            ],
+            "ip.dsfield.ecn_raw": [
+              "0",
+              15,
+              1,
+              3,
+              4
+            ]
+          },
+          "ip.len_raw": [
+            "0038",
+            16,
+            2,
+            0,
+            5
+          ],
+          "ip.id_raw": [
+            "a32a",
+            18,
+            2,
+            0,
+            5
+          ],
+          "ip.flags_raw": [
+            "0",
+            20,
+            1,
+            224,
+            4
+          ],
+          "ip.flags_tree": {
+            "ip.flags.rb_raw": [
+              "0",
+              20,
+              1,
+              128,
+              2
+            ],
+            "ip.flags.df_raw": [
+              "0",
+              20,
+              1,
+              64,
+              2
+            ],
+            "ip.flags.mf_raw": [
+              "0",
+              20,
+              1,
+              32,
+              2
+            ]
+          },
+          "ip.frag_offset_raw": [
+            "0",
+            20,
+            2,
+            8191,
+            5
+          ],
+          "ip.ttl_raw": [
+            "01",
+            22,
+            1,
+            0,
+            4
+          ],
+          "ip.ttl_tree": {
+            "_ws.expert_raw": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "_ws.expert": {
+              "ip.ttl.lncb_raw": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "_ws.expert.message_raw": [
+                0,
+                0,
+                0,
+                26
+              ],
+              "_ws.expert.severity_raw": [
+                0,
+                0,
+                0,
+                7
+              ],
+              "_ws.expert.group_raw": [
+                0,
+                0,
+                0,
+                7
+              ]
+            }
+          },
+          "ip.proto_raw": [
+            "11",
+            23,
+            1,
+            0,
+            4
+          ],
+          "ip.checksum_raw": [
+            "2a28",
+            24,
+            2,
+            0,
+            5
+          ],
+          "ip.checksum.status_raw": [
+            "",
+            24,
+            0,
+            0,
+            4
+          ],
+          "ip.src_raw": [
+            "0a000168",
+            26,
+            4,
+            0,
+            32
+          ],
+          "ip.addr_raw": [
+            "0a000168",
+            26,
+            4,
+            0,
+            32
+          ],
+          "ip.src_host_raw": [
+            "0a000168",
+            26,
+            4,
+            0,
+            26
+          ],
+          "ip.host_raw": [
+            "0a000168",
+            26,
+            4,
+            0,
+            26
+          ],
+          "ip.dst_raw": [
+            "e00000fb",
+            30,
+            4,
+            0,
+            32
+          ],
+          "ip.addr_raw": [
+            "e00000fb",
+            30,
+            4,
+            0,
+            32
+          ],
+          "ip.dst_host_raw": [
+            "e00000fb",
+            30,
+            4,
+            0,
+            26
+          ],
+          "ip.host_raw": [
+            "e00000fb",
+            30,
+            4,
+            0,
+            26
+          ]
+        },
+        "udp_raw": [
+          "14e914e90024c4bc",
+          34,
+          8,
+          0,
+          1
+        ],
+        "udp": {
+          "udp.srcport_raw": [
+            "14e9",
+            34,
+            2,
+            0,
+            5
+          ],
+          "udp.dstport_raw": [
+            "14e9",
+            36,
+            2,
+            0,
+            5
+          ],
+          "udp.port_raw": [
+            "14e9",
+            34,
+            2,
+            0,
+            5
+          ],
+          "udp.port_raw": [
+            "14e9",
+            36,
+            2,
+            0,
+            5
+          ],
+          "udp.length_raw": [
+            "0024",
+            38,
+            2,
+            0,
+            5
+          ],
+          "udp.checksum_raw": [
+            "c4bc",
+            40,
+            2,
+            0,
+            5
+          ],
+          "udp.checksum.status_raw": [
+            "",
+            40,
+            0,
+            0,
+            4
+          ],
+          "udp.stream_raw": [
+            "",
+            42,
+            0,
+            0,
+            7
+          ],
+          "Timestamps": {
+            "udp.time_relative_raw": [
+              "",
+              34,
+              0,
+              0,
+              25
+            ],
+            "udp.time_delta_raw": [
+              "",
+              34,
+              0,
+              0,
+              25
+            ]
+          },
+          "udp.payload_raw": [
+            "0000000000010000000000000467707374056c6f63616c0000010001",
+            42,
+            28,
+            0,
+            30
+          ]
+        },
+        "mdns_raw": [
+          "0000000000010000000000000467707374056c6f63616c0000010001",
+          42,
+          28,
+          0,
+          1
+        ],
+        "mdns": {
+          "dns.id_raw": [
+            "0000",
+            42,
+            2,
+            0,
+            5
+          ],
+          "dns.flags_raw": [
+            "0000",
+            44,
+            2,
+            0,
+            5
+          ],
+          "dns.flags_tree": {
+            "dns.flags.response_raw": [
+              "0",
+              44,
+              2,
+              32768,
+              2
+            ],
+            "dns.flags.opcode_raw": [
+              "0",
+              44,
+              2,
+              30720,
+              5
+            ],
+            "dns.flags.truncated_raw": [
+              "0",
+              44,
+              2,
+              512,
+              2
+            ],
+            "dns.flags.recdesired_raw": [
+              "0",
+              44,
+              2,
+              256,
+              2
+            ],
+            "dns.flags.z_raw": [
+              "0",
+              44,
+              2,
+              64,
+              2
+            ],
+            "dns.flags.checkdisable_raw": [
+              "0",
+              44,
+              2,
+              16,
+              2
+            ]
+          },
+          "dns.count.queries_raw": [
+            "0001",
+            46,
+            2,
+            0,
+            5
+          ],
+          "dns.count.answers_raw": [
+            "0000",
+            48,
+            2,
+            0,
+            5
+          ],
+          "dns.count.auth_rr_raw": [
+            "0000",
+            50,
+            2,
+            0,
+            5
+          ],
+          "dns.count.add_rr_raw": [
+            "0000",
+            52,
+            2,
+            0,
+            5
+          ],
+          "Queries": {
+            "gpst.local: type A, class IN, \"QM\" question": {
+              "dns.qry.name_raw": [
+                "0467707374056c6f63616c00",
+                54,
+                12,
+                0,
+                26
+              ],
+              "dns.qry.name.len_raw": [
+                "0467707374056c6f63616c00",
+                54,
+                12,
+                0,
+                5
+              ],
+              "dns.count.labels_raw": [
+                "0467707374056c6f63616c00",
+                54,
+                12,
+                0,
+                5
+              ],
+              "dns.qry.type_raw": [
+                "0001",
+                66,
+                2,
+                0,
+                5
+              ],
+              "dns.qry.class_raw": [
+                "1",
+                68,
+                2,
+                32767,
+                5
+              ],
+              "dns.qry.qu_raw": [
+                "0",
+                68,
+                2,
+                32768,
+                2
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2023-08-16",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame_raw": [
+          "01005e0000fbf89e94c27afe080045000038a32b000001112a270a000168e00000fb14e914e90024c4a10000000000010000000000000467707374056c6f63616c00001c0001",
+          0,
+          70,
+          0,
+          1
+        ],
+        "frame": {
+          "frame.section_number_raw": [
+            "",
+            0,
+            0,
+            0,
+            7
+          ],
+          "frame.interface_id_raw": [
+            "",
+            0,
+            0,
+            0,
+            7
+          ],
+          "frame.interface_id_tree": {
+            "frame.interface_name_raw": [
+              "",
+              0,
+              0,
+              0,
+              26
+            ],
+            "frame.interface_description_raw": [
+              "",
+              0,
+              0,
+              0,
+              26
+            ]
+          },
+          "frame.encap_type_raw": [
+            "",
+            0,
+            0,
+            0,
+            13
+          ],
+          "frame.time_raw": [
+            "",
+            0,
+            0,
+            0,
+            24
+          ],
+          "frame.offset_shift_raw": [
+            "",
+            0,
+            0,
+            0,
+            25
+          ],
+          "frame.time_epoch_raw": [
+            "",
+            0,
+            0,
+            0,
+            25
+          ],
+          "frame.time_delta_raw": [
+            "",
+            0,
+            0,
+            0,
+            25
+          ],
+          "frame.time_delta_displayed_raw": [
+            "",
+            0,
+            0,
+            0,
+            25
+          ],
+          "frame.time_relative_raw": [
+            "",
+            0,
+            0,
+            0,
+            25
+          ],
+          "frame.number_raw": [
+            "",
+            0,
+            0,
+            0,
+            7
+          ],
+          "frame.len_raw": [
+            "",
+            0,
+            0,
+            0,
+            7
+          ],
+          "frame.cap_len_raw": [
+            "",
+            0,
+            0,
+            0,
+            7
+          ],
+          "frame.marked_raw": [
+            "",
+            0,
+            0,
+            0,
+            2
+          ],
+          "frame.ignored_raw": [
+            "",
+            0,
+            0,
+            0,
+            2
+          ],
+          "frame.protocols_raw": [
+            "",
+            0,
+            0,
+            0,
+            26
+          ]
+        },
+        "eth_raw": [
+          "01005e0000fbf89e94c27afe0800",
+          0,
+          14,
+          0,
+          1
+        ],
+        "eth": {
+          "eth.dst_raw": [
+            "01005e0000fb",
+            0,
+            6,
+            0,
+            29
+          ],
+          "eth.dst_tree": {
+            "eth.dst_resolved_raw": [
+              "01005e0000fb",
+              0,
+              6,
+              0,
+              26
+            ],
+            "eth.dst.oui_raw": [
+              "01005e",
+              0,
+              3,
+              0,
+              6
+            ],
+            "eth.addr_raw": [
+              "01005e0000fb",
+              0,
+              6,
+              0,
+              29
+            ],
+            "eth.addr_resolved_raw": [
+              "01005e0000fb",
+              0,
+              6,
+              0,
+              26
+            ],
+            "eth.addr.oui_raw": [
+              "01005e",
+              0,
+              3,
+              0,
+              6
+            ],
+            "eth.dst.lg_raw": [
+              "0",
+              0,
+              3,
+              131072,
+              2
+            ],
+            "eth.lg_raw": [
+              "0",
+              0,
+              3,
+              131072,
+              2
+            ],
+            "eth.dst.ig_raw": [
+              "1",
+              0,
+              3,
+              65536,
+              2
+            ],
+            "eth.ig_raw": [
+              "1",
+              0,
+              3,
+              65536,
+              2
+            ]
+          },
+          "eth.src_raw": [
+            "f89e94c27afe",
+            6,
+            6,
+            0,
+            29
+          ],
+          "eth.src_tree": {
+            "eth.src_resolved_raw": [
+              "f89e94c27afe",
+              6,
+              6,
+              0,
+              26
+            ],
+            "eth.src.oui_raw": [
+              "f89e94",
+              6,
+              3,
+              0,
+              6
+            ],
+            "eth.src.oui_resolved_raw": [
+              "f89e94c27afe",
+              6,
+              6,
+              0,
+              26
+            ],
+            "eth.addr_raw": [
+              "f89e94c27afe",
+              6,
+              6,
+              0,
+              29
+            ],
+            "eth.addr_resolved_raw": [
+              "f89e94c27afe",
+              6,
+              6,
+              0,
+              26
+            ],
+            "eth.addr.oui_raw": [
+              "f89e94",
+              6,
+              3,
+              0,
+              6
+            ],
+            "eth.addr.oui_resolved_raw": [
+              "f89e94c27afe",
+              6,
+              6,
+              0,
+              26
+            ],
+            "eth.src.lg_raw": [
+              "0",
+              6,
+              3,
+              131072,
+              2
+            ],
+            "eth.lg_raw": [
+              "0",
+              6,
+              3,
+              131072,
+              2
+            ],
+            "eth.src.ig_raw": [
+              "0",
+              6,
+              3,
+              65536,
+              2
+            ],
+            "eth.ig_raw": [
+              "0",
+              6,
+              3,
+              65536,
+              2
+            ]
+          },
+          "eth.type_raw": [
+            "0800",
+            12,
+            2,
+            0,
+            5
+          ]
+        },
+        "ip_raw": [
+          "45000038a32b000001112a270a000168e00000fb",
+          14,
+          20,
+          0,
+          1
+        ],
+        "ip": {
+          "ip.version_raw": [
+            "45",
+            14,
+            1,
+            0,
+            4
+          ],
+          "ip.hdr_len_raw": [
+            "45",
+            14,
+            1,
+            0,
+            4
+          ],
+          "ip.dsfield_raw": [
+            "00",
+            15,
+            1,
+            0,
+            4
+          ],
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp_raw": [
+              "0",
+              15,
+              1,
+              252,
+              4
+            ],
+            "ip.dsfield.ecn_raw": [
+              "0",
+              15,
+              1,
+              3,
+              4
+            ]
+          },
+          "ip.len_raw": [
+            "0038",
+            16,
+            2,
+            0,
+            5
+          ],
+          "ip.id_raw": [
+            "a32b",
+            18,
+            2,
+            0,
+            5
+          ],
+          "ip.flags_raw": [
+            "0",
+            20,
+            1,
+            224,
+            4
+          ],
+          "ip.flags_tree": {
+            "ip.flags.rb_raw": [
+              "0",
+              20,
+              1,
+              128,
+              2
+            ],
+            "ip.flags.df_raw": [
+              "0",
+              20,
+              1,
+              64,
+              2
+            ],
+            "ip.flags.mf_raw": [
+              "0",
+              20,
+              1,
+              32,
+              2
+            ]
+          },
+          "ip.frag_offset_raw": [
+            "0",
+            20,
+            2,
+            8191,
+            5
+          ],
+          "ip.ttl_raw": [
+            "01",
+            22,
+            1,
+            0,
+            4
+          ],
+          "ip.ttl_tree": {
+            "_ws.expert_raw": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "_ws.expert": {
+              "ip.ttl.lncb_raw": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "_ws.expert.message_raw": [
+                0,
+                0,
+                0,
+                26
+              ],
+              "_ws.expert.severity_raw": [
+                0,
+                0,
+                0,
+                7
+              ],
+              "_ws.expert.group_raw": [
+                0,
+                0,
+                0,
+                7
+              ]
+            }
+          },
+          "ip.proto_raw": [
+            "11",
+            23,
+            1,
+            0,
+            4
+          ],
+          "ip.checksum_raw": [
+            "2a27",
+            24,
+            2,
+            0,
+            5
+          ],
+          "ip.checksum.status_raw": [
+            "",
+            24,
+            0,
+            0,
+            4
+          ],
+          "ip.src_raw": [
+            "0a000168",
+            26,
+            4,
+            0,
+            32
+          ],
+          "ip.addr_raw": [
+            "0a000168",
+            26,
+            4,
+            0,
+            32
+          ],
+          "ip.src_host_raw": [
+            "0a000168",
+            26,
+            4,
+            0,
+            26
+          ],
+          "ip.host_raw": [
+            "0a000168",
+            26,
+            4,
+            0,
+            26
+          ],
+          "ip.dst_raw": [
+            "e00000fb",
+            30,
+            4,
+            0,
+            32
+          ],
+          "ip.addr_raw": [
+            "e00000fb",
+            30,
+            4,
+            0,
+            32
+          ],
+          "ip.dst_host_raw": [
+            "e00000fb",
+            30,
+            4,
+            0,
+            26
+          ],
+          "ip.host_raw": [
+            "e00000fb",
+            30,
+            4,
+            0,
+            26
+          ]
+        },
+        "udp_raw": [
+          "14e914e90024c4a1",
+          34,
+          8,
+          0,
+          1
+        ],
+        "udp": {
+          "udp.srcport_raw": [
+            "14e9",
+            34,
+            2,
+            0,
+            5
+          ],
+          "udp.dstport_raw": [
+            "14e9",
+            36,
+            2,
+            0,
+            5
+          ],
+          "udp.port_raw": [
+            "14e9",
+            34,
+            2,
+            0,
+            5
+          ],
+          "udp.port_raw": [
+            "14e9",
+            36,
+            2,
+            0,
+            5
+          ],
+          "udp.length_raw": [
+            "0024",
+            38,
+            2,
+            0,
+            5
+          ],
+          "udp.checksum_raw": [
+            "c4a1",
+            40,
+            2,
+            0,
+            5
+          ],
+          "udp.checksum.status_raw": [
+            "",
+            40,
+            0,
+            0,
+            4
+          ],
+          "udp.stream_raw": [
+            "",
+            42,
+            0,
+            0,
+            7
+          ],
+          "Timestamps": {
+            "udp.time_relative_raw": [
+              "",
+              34,
+              0,
+              0,
+              25
+            ],
+            "udp.time_delta_raw": [
+              "",
+              34,
+              0,
+              0,
+              25
+            ]
+          },
+          "udp.payload_raw": [
+            "0000000000010000000000000467707374056c6f63616c00001c0001",
+            42,
+            28,
+            0,
+            30
+          ]
+        },
+        "mdns_raw": [
+          "0000000000010000000000000467707374056c6f63616c00001c0001",
+          42,
+          28,
+          0,
+          1
+        ],
+        "mdns": {
+          "dns.id_raw": [
+            "0000",
+            42,
+            2,
+            0,
+            5
+          ],
+          "dns.id_tree": {
+            "_ws.expert_raw": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "_ws.expert": {
+              "dns.retransmit_request_raw": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "_ws.expert.message_raw": [
+                0,
+                0,
+                0,
+                26
+              ],
+              "_ws.expert.severity_raw": [
+                0,
+                0,
+                0,
+                7
+              ],
+              "_ws.expert.group_raw": [
+                0,
+                0,
+                0,
+                7
+              ]
+            }
+          },
+          "dns.flags_raw": [
+            "0000",
+            44,
+            2,
+            0,
+            5
+          ],
+          "dns.flags_tree": {
+            "dns.flags.response_raw": [
+              "0",
+              44,
+              2,
+              32768,
+              2
+            ],
+            "dns.flags.opcode_raw": [
+              "0",
+              44,
+              2,
+              30720,
+              5
+            ],
+            "dns.flags.truncated_raw": [
+              "0",
+              44,
+              2,
+              512,
+              2
+            ],
+            "dns.flags.recdesired_raw": [
+              "0",
+              44,
+              2,
+              256,
+              2
+            ],
+            "dns.flags.z_raw": [
+              "0",
+              44,
+              2,
+              64,
+              2
+            ],
+            "dns.flags.checkdisable_raw": [
+              "0",
+              44,
+              2,
+              16,
+              2
+            ]
+          },
+          "dns.count.queries_raw": [
+            "0001",
+            46,
+            2,
+            0,
+            5
+          ],
+          "dns.count.answers_raw": [
+            "0000",
+            48,
+            2,
+            0,
+            5
+          ],
+          "dns.count.auth_rr_raw": [
+            "0000",
+            50,
+            2,
+            0,
+            5
+          ],
+          "dns.count.add_rr_raw": [
+            "0000",
+            52,
+            2,
+            0,
+            5
+          ],
+          "Queries": {
+            "gpst.local: type AAAA, class IN, \"QM\" question": {
+              "dns.qry.name_raw": [
+                "0467707374056c6f63616c00",
+                54,
+                12,
+                0,
+                26
+              ],
+              "dns.qry.name.len_raw": [
+                "0467707374056c6f63616c00",
+                54,
+                12,
+                0,
+                5
+              ],
+              "dns.count.labels_raw": [
+                "0467707374056c6f63616c00",
+                54,
+                12,
+                0,
+                5
+              ],
+              "dns.qry.type_raw": [
+                "001c",
+                66,
+                2,
+                0,
+                5
+              ],
+              "dns.qry.class_raw": [
+                "1",
+                68,
+                2,
+                32767,
+                5
+              ],
+              "dns.qry.qu_raw": [
+                "0",
+                68,
+                2,
+                32768,
+                2
+              ]
+            }
+          },
+          "dns.retransmit_request_in_raw": [
+            "",
+            42,
+            0,
+            0,
+            35
+          ],
+          "dns.retransmission_raw": [
+            "",
+            42,
+            0,
+            0,
+            2
+          ]
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2023-08-16",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame_raw": [
+          "a483e7ac480400133b0f92dc08004500005bec2240003f0637530a00030a0a00011ed3def64c616e6bc24a80c90f80180149ec6900000101080a0ec5cd2c72bc4c6c170303002243c59c5da277ddf79e468cb02b56901d63c436005e487a66f2334ba3d33fa2643d02",
+          0,
+          105,
+          0,
+          1
+        ],
+        "frame": {
+          "frame.section_number_raw": [
+            "",
+            0,
+            0,
+            0,
+            7
+          ],
+          "frame.interface_id_raw": [
+            "",
+            0,
+            0,
+            0,
+            7
+          ],
+          "frame.interface_id_tree": {
+            "frame.interface_name_raw": [
+              "",
+              0,
+              0,
+              0,
+              26
+            ],
+            "frame.interface_description_raw": [
+              "",
+              0,
+              0,
+              0,
+              26
+            ]
+          },
+          "frame.encap_type_raw": [
+            "",
+            0,
+            0,
+            0,
+            13
+          ],
+          "frame.time_raw": [
+            "",
+            0,
+            0,
+            0,
+            24
+          ],
+          "frame.offset_shift_raw": [
+            "",
+            0,
+            0,
+            0,
+            25
+          ],
+          "frame.time_epoch_raw": [
+            "",
+            0,
+            0,
+            0,
+            25
+          ],
+          "frame.time_delta_raw": [
+            "",
+            0,
+            0,
+            0,
+            25
+          ],
+          "frame.time_delta_displayed_raw": [
+            "",
+            0,
+            0,
+            0,
+            25
+          ],
+          "frame.time_relative_raw": [
+            "",
+            0,
+            0,
+            0,
+            25
+          ],
+          "frame.number_raw": [
+            "",
+            0,
+            0,
+            0,
+            7
+          ],
+          "frame.len_raw": [
+            "",
+            0,
+            0,
+            0,
+            7
+          ],
+          "frame.cap_len_raw": [
+            "",
+            0,
+            0,
+            0,
+            7
+          ],
+          "frame.marked_raw": [
+            "",
+            0,
+            0,
+            0,
+            2
+          ],
+          "frame.ignored_raw": [
+            "",
+            0,
+            0,
+            0,
+            2
+          ],
+          "frame.protocols_raw": [
+            "",
+            0,
+            0,
+            0,
+            26
+          ]
+        },
+        "eth_raw": [
+          "a483e7ac480400133b0f92dc0800",
+          0,
+          14,
+          0,
+          1
+        ],
+        "eth": {
+          "eth.dst_raw": [
+            "a483e7ac4804",
+            0,
+            6,
+            0,
+            29
+          ],
+          "eth.dst_tree": {
+            "eth.dst_resolved_raw": [
+              "a483e7ac4804",
+              0,
+              6,
+              0,
+              26
+            ],
+            "eth.dst.oui_raw": [
+              "a483e7",
+              0,
+              3,
+              0,
+              6
+            ],
+            "eth.dst.oui_resolved_raw": [
+              "a483e7ac4804",
+              0,
+              6,
+              0,
+              26
+            ],
+            "eth.addr_raw": [
+              "a483e7ac4804",
+              0,
+              6,
+              0,
+              29
+            ],
+            "eth.addr_resolved_raw": [
+              "a483e7ac4804",
+              0,
+              6,
+              0,
+              26
+            ],
+            "eth.addr.oui_raw": [
+              "a483e7",
+              0,
+              3,
+              0,
+              6
+            ],
+            "eth.addr.oui_resolved_raw": [
+              "a483e7ac4804",
+              0,
+              6,
+              0,
+              26
+            ],
+            "eth.dst.lg_raw": [
+              "0",
+              0,
+              3,
+              131072,
+              2
+            ],
+            "eth.lg_raw": [
+              "0",
+              0,
+              3,
+              131072,
+              2
+            ],
+            "eth.dst.ig_raw": [
+              "0",
+              0,
+              3,
+              65536,
+              2
+            ],
+            "eth.ig_raw": [
+              "0",
+              0,
+              3,
+              65536,
+              2
+            ]
+          },
+          "eth.src_raw": [
+            "00133b0f92dc",
+            6,
+            6,
+            0,
+            29
+          ],
+          "eth.src_tree": {
+            "eth.src_resolved_raw": [
+              "00133b0f92dc",
+              6,
+              6,
+              0,
+              26
+            ],
+            "eth.src.oui_raw": [
+              "00133b",
+              6,
+              3,
+              0,
+              6
+            ],
+            "eth.src.oui_resolved_raw": [
+              "00133b0f92dc",
+              6,
+              6,
+              0,
+              26
+            ],
+            "eth.addr_raw": [
+              "00133b0f92dc",
+              6,
+              6,
+              0,
+              29
+            ],
+            "eth.addr_resolved_raw": [
+              "00133b0f92dc",
+              6,
+              6,
+              0,
+              26
+            ],
+            "eth.addr.oui_raw": [
+              "00133b",
+              6,
+              3,
+              0,
+              6
+            ],
+            "eth.addr.oui_resolved_raw": [
+              "00133b0f92dc",
+              6,
+              6,
+              0,
+              26
+            ],
+            "eth.src.lg_raw": [
+              "0",
+              6,
+              3,
+              131072,
+              2
+            ],
+            "eth.lg_raw": [
+              "0",
+              6,
+              3,
+              131072,
+              2
+            ],
+            "eth.src.ig_raw": [
+              "0",
+              6,
+              3,
+              65536,
+              2
+            ],
+            "eth.ig_raw": [
+              "0",
+              6,
+              3,
+              65536,
+              2
+            ]
+          },
+          "eth.type_raw": [
+            "0800",
+            12,
+            2,
+            0,
+            5
+          ]
+        },
+        "ip_raw": [
+          "4500005bec2240003f0637530a00030a0a00011e",
+          14,
+          20,
+          0,
+          1
+        ],
+        "ip": {
+          "ip.version_raw": [
+            "45",
+            14,
+            1,
+            0,
+            4
+          ],
+          "ip.hdr_len_raw": [
+            "45",
+            14,
+            1,
+            0,
+            4
+          ],
+          "ip.dsfield_raw": [
+            "00",
+            15,
+            1,
+            0,
+            4
+          ],
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp_raw": [
+              "0",
+              15,
+              1,
+              252,
+              4
+            ],
+            "ip.dsfield.ecn_raw": [
+              "0",
+              15,
+              1,
+              3,
+              4
+            ]
+          },
+          "ip.len_raw": [
+            "005b",
+            16,
+            2,
+            0,
+            5
+          ],
+          "ip.id_raw": [
+            "ec22",
+            18,
+            2,
+            0,
+            5
+          ],
+          "ip.flags_raw": [
+            "2",
+            20,
+            1,
+            224,
+            4
+          ],
+          "ip.flags_tree": {
+            "ip.flags.rb_raw": [
+              "0",
+              20,
+              1,
+              128,
+              2
+            ],
+            "ip.flags.df_raw": [
+              "1",
+              20,
+              1,
+              64,
+              2
+            ],
+            "ip.flags.mf_raw": [
+              "0",
+              20,
+              1,
+              32,
+              2
+            ]
+          },
+          "ip.frag_offset_raw": [
+            "0",
+            20,
+            2,
+            8191,
+            5
+          ],
+          "ip.ttl_raw": [
+            "3f",
+            22,
+            1,
+            0,
+            4
+          ],
+          "ip.proto_raw": [
+            "06",
+            23,
+            1,
+            0,
+            4
+          ],
+          "ip.checksum_raw": [
+            "3753",
+            24,
+            2,
+            0,
+            5
+          ],
+          "ip.checksum.status_raw": [
+            "",
+            24,
+            0,
+            0,
+            4
+          ],
+          "ip.src_raw": [
+            "0a00030a",
+            26,
+            4,
+            0,
+            32
+          ],
+          "ip.addr_raw": [
+            "0a00030a",
+            26,
+            4,
+            0,
+            32
+          ],
+          "ip.src_host_raw": [
+            "0a00030a",
+            26,
+            4,
+            0,
+            26
+          ],
+          "ip.host_raw": [
+            "0a00030a",
+            26,
+            4,
+            0,
+            26
+          ],
+          "ip.dst_raw": [
+            "0a00011e",
+            30,
+            4,
+            0,
+            32
+          ],
+          "ip.addr_raw": [
+            "0a00011e",
+            30,
+            4,
+            0,
+            32
+          ],
+          "ip.dst_host_raw": [
+            "0a00011e",
+            30,
+            4,
+            0,
+            26
+          ],
+          "ip.host_raw": [
+            "0a00011e",
+            30,
+            4,
+            0,
+            26
+          ]
+        },
+        "tcp_raw": [
+          "d3def64c616e6bc24a80c90f80180149ec6900000101080a0ec5cd2c72bc4c6c",
+          34,
+          32,
+          0,
+          1
+        ],
+        "tcp": {
+          "tcp.srcport_raw": [
+            "d3de",
+            34,
+            2,
+            0,
+            5
+          ],
+          "tcp.dstport_raw": [
+            "f64c",
+            36,
+            2,
+            0,
+            5
+          ],
+          "tcp.port_raw": [
+            "d3de",
+            34,
+            2,
+            0,
+            5
+          ],
+          "tcp.port_raw": [
+            "f64c",
+            36,
+            2,
+            0,
+            5
+          ],
+          "tcp.stream_raw": [
+            "",
+            34,
+            0,
+            0,
+            7
+          ],
+          "tcp.completeness_raw": [
+            0,
+            0,
+            0,
+            4
+          ],
+          "tcp.len_raw": [
+            "80",
+            46,
+            1,
+            0,
+            7
+          ],
+          "tcp.seq_raw": [
+            "616e6bc2",
+            38,
+            4,
+            0,
+            7
+          ],
+          "tcp.seq_raw_raw": [
+            "616e6bc2",
+            38,
+            4,
+            0,
+            7
+          ],
+          "tcp.nxtseq_raw": [
+            "",
+            34,
+            0,
+            0,
+            7
+          ],
+          "tcp.ack_raw": [
+            "4a80c90f",
+            42,
+            4,
+            0,
+            7
+          ],
+          "tcp.ack_raw_raw": [
+            "4a80c90f",
+            42,
+            4,
+            0,
+            7
+          ],
+          "tcp.hdr_len_raw": [
+            "80",
+            46,
+            1,
+            0,
+            4
+          ],
+          "tcp.flags_raw": [
+            "18",
+            46,
+            2,
+            4095,
+            5
+          ],
+          "tcp.flags_tree": {
+            "tcp.flags.res_raw": [
+              "0",
+              46,
+              1,
+              3584,
+              2
+            ],
+            "tcp.flags.ae_raw": [
+              "0",
+              46,
+              1,
+              256,
+              2
+            ],
+            "tcp.flags.cwr_raw": [
+              "0",
+              47,
+              1,
+              128,
+              2
+            ],
+            "tcp.flags.ece_raw": [
+              "0",
+              47,
+              1,
+              64,
+              2
+            ],
+            "tcp.flags.urg_raw": [
+              "0",
+              47,
+              1,
+              32,
+              2
+            ],
+            "tcp.flags.ack_raw": [
+              "1",
+              47,
+              1,
+              16,
+              2
+            ],
+            "tcp.flags.push_raw": [
+              "1",
+              47,
+              1,
+              8,
+              2
+            ],
+            "tcp.flags.reset_raw": [
+              "0",
+              47,
+              1,
+              4,
+              2
+            ],
+            "tcp.flags.syn_raw": [
+              "0",
+              47,
+              1,
+              2,
+              2
+            ],
+            "tcp.flags.fin_raw": [
+              "0",
+              47,
+              1,
+              1,
+              2
+            ],
+            "tcp.flags.str_raw": [
+              "8018",
+              46,
+              2,
+              0,
+              26
+            ]
+          },
+          "tcp.window_size_value_raw": [
+            "0149",
+            48,
+            2,
+            0,
+            5
+          ],
+          "tcp.window_size_raw": [
+            "0149",
+            48,
+            2,
+            0,
+            7
+          ],
+          "tcp.window_size_scalefactor_raw": [
+            "0149",
+            48,
+            2,
+            0,
+            15
+          ],
+          "tcp.checksum_raw": [
+            "ec69",
+            50,
+            2,
+            0,
+            5
+          ],
+          "tcp.checksum.status_raw": [
+            "",
+            50,
+            0,
+            0,
+            4
+          ],
+          "tcp.urgent_pointer_raw": [
+            "0000",
+            52,
+            2,
+            0,
+            5
+          ],
+          "tcp.options_raw": [
+            "0101080a0ec5cd2c72bc4c6c",
+            54,
+            12,
+            0,
+            30
+          ],
+          "tcp.options_tree": {
+            "tcp.options.nop_raw": [
+              "01",
+              54,
+              1,
+              0,
+              30
+            ],
+            "tcp.options.nop_tree": {
+              "tcp.option_kind_raw": [
+                "01",
+                54,
+                1,
+                0,
+                4
+              ]
+            },
+            "tcp.options.nop_raw": [
+              "01",
+              55,
+              1,
+              0,
+              30
+            ],
+            "tcp.options.nop_tree": {
+              "tcp.option_kind_raw": [
+                "01",
+                55,
+                1,
+                0,
+                4
+              ]
+            },
+            "tcp.options.timestamp_raw": [
+              "080a0ec5cd2c72bc4c6c",
+              56,
+              10,
+              0,
+              30
+            ],
+            "tcp.options.timestamp_tree": {
+              "tcp.option_kind_raw": [
+                "08",
+                56,
+                1,
+                0,
+                4
+              ],
+              "tcp.option_len_raw": [
+                "0a",
+                57,
+                1,
+                0,
+                4
+              ],
+              "tcp.options.timestamp.tsval_raw": [
+                "0ec5cd2c",
+                58,
+                4,
+                0,
+                7
+              ],
+              "tcp.options.timestamp.tsecr_raw": [
+                "72bc4c6c",
+                62,
+                4,
+                0,
+                7
+              ]
+            }
+          },
+          "Timestamps": {
+            "tcp.time_relative_raw": [
+              "",
+              34,
+              0,
+              0,
+              25
+            ],
+            "tcp.time_delta_raw": [
+              "",
+              34,
+              0,
+              0,
+              25
+            ]
+          },
+          "tcp.analysis_raw": [
+            "",
+            34,
+            0,
+            0,
+            0
+          ],
+          "tcp.analysis": {
+            "tcp.analysis.bytes_in_flight_raw": [
+              "",
+              34,
+              0,
+              0,
+              7
+            ],
+            "tcp.analysis.push_bytes_sent_raw": [
+              "",
+              34,
+              0,
+              0,
+              7
+            ]
+          },
+          "tcp.payload_raw": [
+            "170303002243c59c5da277ddf79e468cb02b56901d63c436005e487a66f2334ba3d33fa2643d02",
+            66,
+            39,
+            0,
+            30
+          ]
+        },
+        "tls_raw": [
+          "170303002243c59c5da277ddf79e468cb02b56901d63c436005e487a66f2334ba3d33fa2643d02",
+          66,
+          39,
+          0,
+          1
+        ],
+        "tls": {
+          "tls.record_raw": [
+            "170303002243c59c5da277ddf79e468cb02b56901d63c436005e487a66f2334ba3d33fa2643d02",
+            66,
+            39,
+            0,
+            0
+          ],
+          "tls.record": {
+            "tls.record.content_type_raw": [
+              "17",
+              66,
+              1,
+              0,
+              4
+            ],
+            "tls.record.version_raw": [
+              "0303",
+              67,
+              2,
+              0,
+              5
+            ],
+            "tls.record.length_raw": [
+              "0022",
+              69,
+              2,
+              0,
+              5
+            ],
+            "tls.app_data_raw": [
+              "43c59c5da277ddf79e468cb02b56901d63c436005e487a66f2334ba3d33fa2643d02",
+              71,
+              34,
+              0,
+              30
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2023-08-16",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame_raw": [
+          "00133b0f92dca483e7ac4804080045000034000040004006229d0a00011e0a00030af64cd3de4a80c90f616e6be9801007ffbfea00000101080a72bc9cea0ec5cd2c",
+          0,
+          66,
+          0,
+          1
+        ],
+        "frame": {
+          "frame.section_number_raw": [
+            "",
+            0,
+            0,
+            0,
+            7
+          ],
+          "frame.interface_id_raw": [
+            "",
+            0,
+            0,
+            0,
+            7
+          ],
+          "frame.interface_id_tree": {
+            "frame.interface_name_raw": [
+              "",
+              0,
+              0,
+              0,
+              26
+            ],
+            "frame.interface_description_raw": [
+              "",
+              0,
+              0,
+              0,
+              26
+            ]
+          },
+          "frame.encap_type_raw": [
+            "",
+            0,
+            0,
+            0,
+            13
+          ],
+          "frame.time_raw": [
+            "",
+            0,
+            0,
+            0,
+            24
+          ],
+          "frame.offset_shift_raw": [
+            "",
+            0,
+            0,
+            0,
+            25
+          ],
+          "frame.time_epoch_raw": [
+            "",
+            0,
+            0,
+            0,
+            25
+          ],
+          "frame.time_delta_raw": [
+            "",
+            0,
+            0,
+            0,
+            25
+          ],
+          "frame.time_delta_displayed_raw": [
+            "",
+            0,
+            0,
+            0,
+            25
+          ],
+          "frame.time_relative_raw": [
+            "",
+            0,
+            0,
+            0,
+            25
+          ],
+          "frame.number_raw": [
+            "",
+            0,
+            0,
+            0,
+            7
+          ],
+          "frame.len_raw": [
+            "",
+            0,
+            0,
+            0,
+            7
+          ],
+          "frame.cap_len_raw": [
+            "",
+            0,
+            0,
+            0,
+            7
+          ],
+          "frame.marked_raw": [
+            "",
+            0,
+            0,
+            0,
+            2
+          ],
+          "frame.ignored_raw": [
+            "",
+            0,
+            0,
+            0,
+            2
+          ],
+          "frame.protocols_raw": [
+            "",
+            0,
+            0,
+            0,
+            26
+          ]
+        },
+        "eth_raw": [
+          "00133b0f92dca483e7ac48040800",
+          0,
+          14,
+          0,
+          1
+        ],
+        "eth": {
+          "eth.dst_raw": [
+            "00133b0f92dc",
+            0,
+            6,
+            0,
+            29
+          ],
+          "eth.dst_tree": {
+            "eth.dst_resolved_raw": [
+              "00133b0f92dc",
+              0,
+              6,
+              0,
+              26
+            ],
+            "eth.dst.oui_raw": [
+              "00133b",
+              0,
+              3,
+              0,
+              6
+            ],
+            "eth.dst.oui_resolved_raw": [
+              "00133b0f92dc",
+              0,
+              6,
+              0,
+              26
+            ],
+            "eth.addr_raw": [
+              "00133b0f92dc",
+              0,
+              6,
+              0,
+              29
+            ],
+            "eth.addr_resolved_raw": [
+              "00133b0f92dc",
+              0,
+              6,
+              0,
+              26
+            ],
+            "eth.addr.oui_raw": [
+              "00133b",
+              0,
+              3,
+              0,
+              6
+            ],
+            "eth.addr.oui_resolved_raw": [
+              "00133b0f92dc",
+              0,
+              6,
+              0,
+              26
+            ],
+            "eth.dst.lg_raw": [
+              "0",
+              0,
+              3,
+              131072,
+              2
+            ],
+            "eth.lg_raw": [
+              "0",
+              0,
+              3,
+              131072,
+              2
+            ],
+            "eth.dst.ig_raw": [
+              "0",
+              0,
+              3,
+              65536,
+              2
+            ],
+            "eth.ig_raw": [
+              "0",
+              0,
+              3,
+              65536,
+              2
+            ]
+          },
+          "eth.src_raw": [
+            "a483e7ac4804",
+            6,
+            6,
+            0,
+            29
+          ],
+          "eth.src_tree": {
+            "eth.src_resolved_raw": [
+              "a483e7ac4804",
+              6,
+              6,
+              0,
+              26
+            ],
+            "eth.src.oui_raw": [
+              "a483e7",
+              6,
+              3,
+              0,
+              6
+            ],
+            "eth.src.oui_resolved_raw": [
+              "a483e7ac4804",
+              6,
+              6,
+              0,
+              26
+            ],
+            "eth.addr_raw": [
+              "a483e7ac4804",
+              6,
+              6,
+              0,
+              29
+            ],
+            "eth.addr_resolved_raw": [
+              "a483e7ac4804",
+              6,
+              6,
+              0,
+              26
+            ],
+            "eth.addr.oui_raw": [
+              "a483e7",
+              6,
+              3,
+              0,
+              6
+            ],
+            "eth.addr.oui_resolved_raw": [
+              "a483e7ac4804",
+              6,
+              6,
+              0,
+              26
+            ],
+            "eth.src.lg_raw": [
+              "0",
+              6,
+              3,
+              131072,
+              2
+            ],
+            "eth.lg_raw": [
+              "0",
+              6,
+              3,
+              131072,
+              2
+            ],
+            "eth.src.ig_raw": [
+              "0",
+              6,
+              3,
+              65536,
+              2
+            ],
+            "eth.ig_raw": [
+              "0",
+              6,
+              3,
+              65536,
+              2
+            ]
+          },
+          "eth.type_raw": [
+            "0800",
+            12,
+            2,
+            0,
+            5
+          ]
+        },
+        "ip_raw": [
+          "45000034000040004006229d0a00011e0a00030a",
+          14,
+          20,
+          0,
+          1
+        ],
+        "ip": {
+          "ip.version_raw": [
+            "45",
+            14,
+            1,
+            0,
+            4
+          ],
+          "ip.hdr_len_raw": [
+            "45",
+            14,
+            1,
+            0,
+            4
+          ],
+          "ip.dsfield_raw": [
+            "00",
+            15,
+            1,
+            0,
+            4
+          ],
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp_raw": [
+              "0",
+              15,
+              1,
+              252,
+              4
+            ],
+            "ip.dsfield.ecn_raw": [
+              "0",
+              15,
+              1,
+              3,
+              4
+            ]
+          },
+          "ip.len_raw": [
+            "0034",
+            16,
+            2,
+            0,
+            5
+          ],
+          "ip.id_raw": [
+            "0000",
+            18,
+            2,
+            0,
+            5
+          ],
+          "ip.flags_raw": [
+            "2",
+            20,
+            1,
+            224,
+            4
+          ],
+          "ip.flags_tree": {
+            "ip.flags.rb_raw": [
+              "0",
+              20,
+              1,
+              128,
+              2
+            ],
+            "ip.flags.df_raw": [
+              "1",
+              20,
+              1,
+              64,
+              2
+            ],
+            "ip.flags.mf_raw": [
+              "0",
+              20,
+              1,
+              32,
+              2
+            ]
+          },
+          "ip.frag_offset_raw": [
+            "0",
+            20,
+            2,
+            8191,
+            5
+          ],
+          "ip.ttl_raw": [
+            "40",
+            22,
+            1,
+            0,
+            4
+          ],
+          "ip.proto_raw": [
+            "06",
+            23,
+            1,
+            0,
+            4
+          ],
+          "ip.checksum_raw": [
+            "229d",
+            24,
+            2,
+            0,
+            5
+          ],
+          "ip.checksum.status_raw": [
+            "",
+            24,
+            0,
+            0,
+            4
+          ],
+          "ip.src_raw": [
+            "0a00011e",
+            26,
+            4,
+            0,
+            32
+          ],
+          "ip.addr_raw": [
+            "0a00011e",
+            26,
+            4,
+            0,
+            32
+          ],
+          "ip.src_host_raw": [
+            "0a00011e",
+            26,
+            4,
+            0,
+            26
+          ],
+          "ip.host_raw": [
+            "0a00011e",
+            26,
+            4,
+            0,
+            26
+          ],
+          "ip.dst_raw": [
+            "0a00030a",
+            30,
+            4,
+            0,
+            32
+          ],
+          "ip.addr_raw": [
+            "0a00030a",
+            30,
+            4,
+            0,
+            32
+          ],
+          "ip.dst_host_raw": [
+            "0a00030a",
+            30,
+            4,
+            0,
+            26
+          ],
+          "ip.host_raw": [
+            "0a00030a",
+            30,
+            4,
+            0,
+            26
+          ]
+        },
+        "tcp_raw": [
+          "f64cd3de4a80c90f616e6be9801007ffbfea00000101080a72bc9cea0ec5cd2c",
+          34,
+          32,
+          0,
+          1
+        ],
+        "tcp": {
+          "tcp.srcport_raw": [
+            "f64c",
+            34,
+            2,
+            0,
+            5
+          ],
+          "tcp.dstport_raw": [
+            "d3de",
+            36,
+            2,
+            0,
+            5
+          ],
+          "tcp.port_raw": [
+            "f64c",
+            34,
+            2,
+            0,
+            5
+          ],
+          "tcp.port_raw": [
+            "d3de",
+            36,
+            2,
+            0,
+            5
+          ],
+          "tcp.stream_raw": [
+            "",
+            34,
+            0,
+            0,
+            7
+          ],
+          "tcp.completeness_raw": [
+            0,
+            0,
+            0,
+            4
+          ],
+          "tcp.len_raw": [
+            "80",
+            46,
+            1,
+            0,
+            7
+          ],
+          "tcp.seq_raw": [
+            "4a80c90f",
+            38,
+            4,
+            0,
+            7
+          ],
+          "tcp.seq_raw_raw": [
+            "4a80c90f",
+            38,
+            4,
+            0,
+            7
+          ],
+          "tcp.nxtseq_raw": [
+            "",
+            34,
+            0,
+            0,
+            7
+          ],
+          "tcp.ack_raw": [
+            "616e6be9",
+            42,
+            4,
+            0,
+            7
+          ],
+          "tcp.ack_raw_raw": [
+            "616e6be9",
+            42,
+            4,
+            0,
+            7
+          ],
+          "tcp.hdr_len_raw": [
+            "80",
+            46,
+            1,
+            0,
+            4
+          ],
+          "tcp.flags_raw": [
+            "10",
+            46,
+            2,
+            4095,
+            5
+          ],
+          "tcp.flags_tree": {
+            "tcp.flags.res_raw": [
+              "0",
+              46,
+              1,
+              3584,
+              2
+            ],
+            "tcp.flags.ae_raw": [
+              "0",
+              46,
+              1,
+              256,
+              2
+            ],
+            "tcp.flags.cwr_raw": [
+              "0",
+              47,
+              1,
+              128,
+              2
+            ],
+            "tcp.flags.ece_raw": [
+              "0",
+              47,
+              1,
+              64,
+              2
+            ],
+            "tcp.flags.urg_raw": [
+              "0",
+              47,
+              1,
+              32,
+              2
+            ],
+            "tcp.flags.ack_raw": [
+              "1",
+              47,
+              1,
+              16,
+              2
+            ],
+            "tcp.flags.push_raw": [
+              "0",
+              47,
+              1,
+              8,
+              2
+            ],
+            "tcp.flags.reset_raw": [
+              "0",
+              47,
+              1,
+              4,
+              2
+            ],
+            "tcp.flags.syn_raw": [
+              "0",
+              47,
+              1,
+              2,
+              2
+            ],
+            "tcp.flags.fin_raw": [
+              "0",
+              47,
+              1,
+              1,
+              2
+            ],
+            "tcp.flags.str_raw": [
+              "8010",
+              46,
+              2,
+              0,
+              26
+            ]
+          },
+          "tcp.window_size_value_raw": [
+            "07ff",
+            48,
+            2,
+            0,
+            5
+          ],
+          "tcp.window_size_raw": [
+            "07ff",
+            48,
+            2,
+            0,
+            7
+          ],
+          "tcp.window_size_scalefactor_raw": [
+            "07ff",
+            48,
+            2,
+            0,
+            15
+          ],
+          "tcp.checksum_raw": [
+            "bfea",
+            50,
+            2,
+            0,
+            5
+          ],
+          "tcp.checksum.status_raw": [
+            "",
+            50,
+            0,
+            0,
+            4
+          ],
+          "tcp.urgent_pointer_raw": [
+            "0000",
+            52,
+            2,
+            0,
+            5
+          ],
+          "tcp.options_raw": [
+            "0101080a72bc9cea0ec5cd2c",
+            54,
+            12,
+            0,
+            30
+          ],
+          "tcp.options_tree": {
+            "tcp.options.nop_raw": [
+              "01",
+              54,
+              1,
+              0,
+              30
+            ],
+            "tcp.options.nop_tree": {
+              "tcp.option_kind_raw": [
+                "01",
+                54,
+                1,
+                0,
+                4
+              ]
+            },
+            "tcp.options.nop_raw": [
+              "01",
+              55,
+              1,
+              0,
+              30
+            ],
+            "tcp.options.nop_tree": {
+              "tcp.option_kind_raw": [
+                "01",
+                55,
+                1,
+                0,
+                4
+              ]
+            },
+            "tcp.options.timestamp_raw": [
+              "080a72bc9cea0ec5cd2c",
+              56,
+              10,
+              0,
+              30
+            ],
+            "tcp.options.timestamp_tree": {
+              "tcp.option_kind_raw": [
+                "08",
+                56,
+                1,
+                0,
+                4
+              ],
+              "tcp.option_len_raw": [
+                "0a",
+                57,
+                1,
+                0,
+                4
+              ],
+              "tcp.options.timestamp.tsval_raw": [
+                "72bc9cea",
+                58,
+                4,
+                0,
+                7
+              ],
+              "tcp.options.timestamp.tsecr_raw": [
+                "0ec5cd2c",
+                62,
+                4,
+                0,
+                7
+              ]
+            }
+          },
+          "Timestamps": {
+            "tcp.time_relative_raw": [
+              "",
+              34,
+              0,
+              0,
+              25
+            ],
+            "tcp.time_delta_raw": [
+              "",
+              34,
+              0,
+              0,
+              25
+            ]
+          },
+          "tcp.analysis_raw": [
+            "",
+            34,
+            0,
+            0,
+            0
+          ],
+          "tcp.analysis": {
+            "tcp.analysis.acks_frame_raw": [
+              "",
+              34,
+              0,
+              0,
+              35
+            ],
+            "tcp.analysis.ack_rtt_raw": [
+              "",
+              34,
+              0,
+              0,
+              25
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2023-08-16",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame_raw": [
+          "fffffffffffff89e94c27afe08004500004e0e670000801114d20a0001680a0001ff00890089003a18e68aac011000010000000000002045484641464446454341434143414341434143414341434143414341434141410000200001",
+          0,
+          92,
+          0,
+          1
+        ],
+        "frame": {
+          "frame.section_number_raw": [
+            "",
+            0,
+            0,
+            0,
+            7
+          ],
+          "frame.interface_id_raw": [
+            "",
+            0,
+            0,
+            0,
+            7
+          ],
+          "frame.interface_id_tree": {
+            "frame.interface_name_raw": [
+              "",
+              0,
+              0,
+              0,
+              26
+            ],
+            "frame.interface_description_raw": [
+              "",
+              0,
+              0,
+              0,
+              26
+            ]
+          },
+          "frame.encap_type_raw": [
+            "",
+            0,
+            0,
+            0,
+            13
+          ],
+          "frame.time_raw": [
+            "",
+            0,
+            0,
+            0,
+            24
+          ],
+          "frame.offset_shift_raw": [
+            "",
+            0,
+            0,
+            0,
+            25
+          ],
+          "frame.time_epoch_raw": [
+            "",
+            0,
+            0,
+            0,
+            25
+          ],
+          "frame.time_delta_raw": [
+            "",
+            0,
+            0,
+            0,
+            25
+          ],
+          "frame.time_delta_displayed_raw": [
+            "",
+            0,
+            0,
+            0,
+            25
+          ],
+          "frame.time_relative_raw": [
+            "",
+            0,
+            0,
+            0,
+            25
+          ],
+          "frame.number_raw": [
+            "",
+            0,
+            0,
+            0,
+            7
+          ],
+          "frame.len_raw": [
+            "",
+            0,
+            0,
+            0,
+            7
+          ],
+          "frame.cap_len_raw": [
+            "",
+            0,
+            0,
+            0,
+            7
+          ],
+          "frame.marked_raw": [
+            "",
+            0,
+            0,
+            0,
+            2
+          ],
+          "frame.ignored_raw": [
+            "",
+            0,
+            0,
+            0,
+            2
+          ],
+          "frame.protocols_raw": [
+            "",
+            0,
+            0,
+            0,
+            26
+          ]
+        },
+        "eth_raw": [
+          "fffffffffffff89e94c27afe0800",
+          0,
+          14,
+          0,
+          1
+        ],
+        "eth": {
+          "eth.dst_raw": [
+            "ffffffffffff",
+            0,
+            6,
+            0,
+            29
+          ],
+          "eth.dst_tree": {
+            "eth.dst_resolved_raw": [
+              "ffffffffffff",
+              0,
+              6,
+              0,
+              26
+            ],
+            "eth.dst.oui_raw": [
+              "ffffff",
+              0,
+              3,
+              0,
+              6
+            ],
+            "eth.addr_raw": [
+              "ffffffffffff",
+              0,
+              6,
+              0,
+              29
+            ],
+            "eth.addr_resolved_raw": [
+              "ffffffffffff",
+              0,
+              6,
+              0,
+              26
+            ],
+            "eth.addr.oui_raw": [
+              "ffffff",
+              0,
+              3,
+              0,
+              6
+            ],
+            "eth.dst.lg_raw": [
+              "1",
+              0,
+              3,
+              131072,
+              2
+            ],
+            "eth.lg_raw": [
+              "1",
+              0,
+              3,
+              131072,
+              2
+            ],
+            "eth.dst.ig_raw": [
+              "1",
+              0,
+              3,
+              65536,
+              2
+            ],
+            "eth.ig_raw": [
+              "1",
+              0,
+              3,
+              65536,
+              2
+            ]
+          },
+          "eth.src_raw": [
+            "f89e94c27afe",
+            6,
+            6,
+            0,
+            29
+          ],
+          "eth.src_tree": {
+            "eth.src_resolved_raw": [
+              "f89e94c27afe",
+              6,
+              6,
+              0,
+              26
+            ],
+            "eth.src.oui_raw": [
+              "f89e94",
+              6,
+              3,
+              0,
+              6
+            ],
+            "eth.src.oui_resolved_raw": [
+              "f89e94c27afe",
+              6,
+              6,
+              0,
+              26
+            ],
+            "eth.addr_raw": [
+              "f89e94c27afe",
+              6,
+              6,
+              0,
+              29
+            ],
+            "eth.addr_resolved_raw": [
+              "f89e94c27afe",
+              6,
+              6,
+              0,
+              26
+            ],
+            "eth.addr.oui_raw": [
+              "f89e94",
+              6,
+              3,
+              0,
+              6
+            ],
+            "eth.addr.oui_resolved_raw": [
+              "f89e94c27afe",
+              6,
+              6,
+              0,
+              26
+            ],
+            "eth.src.lg_raw": [
+              "0",
+              6,
+              3,
+              131072,
+              2
+            ],
+            "eth.lg_raw": [
+              "0",
+              6,
+              3,
+              131072,
+              2
+            ],
+            "eth.src.ig_raw": [
+              "0",
+              6,
+              3,
+              65536,
+              2
+            ],
+            "eth.ig_raw": [
+              "0",
+              6,
+              3,
+              65536,
+              2
+            ]
+          },
+          "eth.type_raw": [
+            "0800",
+            12,
+            2,
+            0,
+            5
+          ]
+        },
+        "ip_raw": [
+          "4500004e0e670000801114d20a0001680a0001ff",
+          14,
+          20,
+          0,
+          1
+        ],
+        "ip": {
+          "ip.version_raw": [
+            "45",
+            14,
+            1,
+            0,
+            4
+          ],
+          "ip.hdr_len_raw": [
+            "45",
+            14,
+            1,
+            0,
+            4
+          ],
+          "ip.dsfield_raw": [
+            "00",
+            15,
+            1,
+            0,
+            4
+          ],
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp_raw": [
+              "0",
+              15,
+              1,
+              252,
+              4
+            ],
+            "ip.dsfield.ecn_raw": [
+              "0",
+              15,
+              1,
+              3,
+              4
+            ]
+          },
+          "ip.len_raw": [
+            "004e",
+            16,
+            2,
+            0,
+            5
+          ],
+          "ip.id_raw": [
+            "0e67",
+            18,
+            2,
+            0,
+            5
+          ],
+          "ip.flags_raw": [
+            "0",
+            20,
+            1,
+            224,
+            4
+          ],
+          "ip.flags_tree": {
+            "ip.flags.rb_raw": [
+              "0",
+              20,
+              1,
+              128,
+              2
+            ],
+            "ip.flags.df_raw": [
+              "0",
+              20,
+              1,
+              64,
+              2
+            ],
+            "ip.flags.mf_raw": [
+              "0",
+              20,
+              1,
+              32,
+              2
+            ]
+          },
+          "ip.frag_offset_raw": [
+            "0",
+            20,
+            2,
+            8191,
+            5
+          ],
+          "ip.ttl_raw": [
+            "80",
+            22,
+            1,
+            0,
+            4
+          ],
+          "ip.proto_raw": [
+            "11",
+            23,
+            1,
+            0,
+            4
+          ],
+          "ip.checksum_raw": [
+            "14d2",
+            24,
+            2,
+            0,
+            5
+          ],
+          "ip.checksum.status_raw": [
+            "",
+            24,
+            0,
+            0,
+            4
+          ],
+          "ip.src_raw": [
+            "0a000168",
+            26,
+            4,
+            0,
+            32
+          ],
+          "ip.addr_raw": [
+            "0a000168",
+            26,
+            4,
+            0,
+            32
+          ],
+          "ip.src_host_raw": [
+            "0a000168",
+            26,
+            4,
+            0,
+            26
+          ],
+          "ip.host_raw": [
+            "0a000168",
+            26,
+            4,
+            0,
+            26
+          ],
+          "ip.dst_raw": [
+            "0a0001ff",
+            30,
+            4,
+            0,
+            32
+          ],
+          "ip.addr_raw": [
+            "0a0001ff",
+            30,
+            4,
+            0,
+            32
+          ],
+          "ip.dst_host_raw": [
+            "0a0001ff",
+            30,
+            4,
+            0,
+            26
+          ],
+          "ip.host_raw": [
+            "0a0001ff",
+            30,
+            4,
+            0,
+            26
+          ]
+        },
+        "udp_raw": [
+          "00890089003a18e6",
+          34,
+          8,
+          0,
+          1
+        ],
+        "udp": {
+          "udp.srcport_raw": [
+            "0089",
+            34,
+            2,
+            0,
+            5
+          ],
+          "udp.dstport_raw": [
+            "0089",
+            36,
+            2,
+            0,
+            5
+          ],
+          "udp.port_raw": [
+            "0089",
+            34,
+            2,
+            0,
+            5
+          ],
+          "udp.port_raw": [
+            "0089",
+            36,
+            2,
+            0,
+            5
+          ],
+          "udp.length_raw": [
+            "003a",
+            38,
+            2,
+            0,
+            5
+          ],
+          "udp.checksum_raw": [
+            "18e6",
+            40,
+            2,
+            0,
+            5
+          ],
+          "udp.checksum.status_raw": [
+            "",
+            40,
+            0,
+            0,
+            4
+          ],
+          "udp.stream_raw": [
+            "",
+            42,
+            0,
+            0,
+            7
+          ],
+          "Timestamps": {
+            "udp.time_relative_raw": [
+              "",
+              34,
+              0,
+              0,
+              25
+            ],
+            "udp.time_delta_raw": [
+              "",
+              34,
+              0,
+              0,
+              25
+            ]
+          },
+          "udp.payload_raw": [
+            "8aac011000010000000000002045484641464446454341434143414341434143414341434143414341434141410000200001",
+            42,
+            50,
+            0,
+            30
+          ]
+        },
+        "nbns_raw": [
+          "8aac011000010000000000002045484641464446454341434143414341434143414341434143414341434141410000200001",
+          42,
+          50,
+          0,
+          1
+        ],
+        "nbns": {
+          "nbns.id_raw": [
+            "8aac",
+            42,
+            2,
+            0,
+            5
+          ],
+          "nbns.flags_raw": [
+            "0110",
+            44,
+            2,
+            0,
+            5
+          ],
+          "nbns.flags_tree": {
+            "nbns.flags.response_raw": [
+              "0",
+              44,
+              2,
+              32768,
+              2
+            ],
+            "nbns.flags.opcode_raw": [
+              "0",
+              44,
+              2,
+              30720,
+              5
+            ],
+            "nbns.flags.truncated_raw": [
+              "0",
+              44,
+              2,
+              512,
+              2
+            ],
+            "nbns.flags.recdesired_raw": [
+              "1",
+              44,
+              2,
+              256,
+              2
+            ],
+            "nbns.flags.broadcast_raw": [
+              "1",
+              44,
+              2,
+              16,
+              2
+            ]
+          },
+          "nbns.count.queries_raw": [
+            "0001",
+            46,
+            2,
+            0,
+            5
+          ],
+          "nbns.count.answers_raw": [
+            "0000",
+            48,
+            2,
+            0,
+            5
+          ],
+          "nbns.count.auth_rr_raw": [
+            "0000",
+            50,
+            2,
+            0,
+            5
+          ],
+          "nbns.count.add_rr_raw": [
+            "0000",
+            52,
+            2,
+            0,
+            5
+          ],
+          "Queries": {
+            "GPST<00>: type NB, class IN": {
+              "nbns.name_raw": [
+                "20454846414644464543414341434143414341434143414341434143414341414100",
+                54,
+                34,
+                0,
+                26
+              ],
+              "nbns.type_raw": [
+                "0020",
+                88,
+                2,
+                0,
+                5
+              ],
+              "nbns.class_raw": [
+                "0001",
+                90,
+                2,
+                0,
+                5
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+]

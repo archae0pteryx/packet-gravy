@@ -1,8 +1,9 @@
 {
   "expo": {
     "name": "baby-gravy-mobile",
-    "slug": "baby-gravy-mobile",
+    "slug": "gravy",
     "version": "1.0.0",
+    "scheme": "gravy",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
@@ -15,7 +16,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rimraf.packetgravy"
     },
     "android": {
       "adaptiveIcon": {
@@ -25,6 +27,24 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "e11ccb7c-4598-4ba4-8650-c773040d5bba"
+      }
+    },
+    "owner": "rimraf",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/e11ccb7c-4598-4ba4-8650-c773040d5bba"
     }
   }
 }
